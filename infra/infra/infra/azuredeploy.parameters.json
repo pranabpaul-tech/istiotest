@@ -1,0 +1,39 @@
+{
+  "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.5",
+  "parameters": {
+    "subscription_id": {
+      "value": "eff758a9-6728-4207-a75c-973bea388c34"
+    },
+    "vault_name": {
+      "value": "keyvaultwithistio"
+    },
+    "virtualNetwork_name": {
+      "value": "aksistiovnet"
+    },
+    "subnet_name": {
+      "value": "aksistiosubnet"
+    },
+    "addressPrefixes_vnet": {
+      "value": "10.0.0.0/16"
+    },
+    "addressPrefixes_subnet": {
+      "value": "10.0.0.0/24"
+    },
+    "registries_name": {
+      "value": "acrwithistio"
+    },
+    "registries_sku": {
+      "value": "Standard"
+    },
+    "managedCluster_name": {
+      "value": "aksistio"
+    },
+    "storageAccounts_akshelperstorage_name": {
+      "value": "aksistiostorage"
+    },
+    "keysecret_Value": {
+      "value": "password123"
+    }
+  }
+}
